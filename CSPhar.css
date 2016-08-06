@@ -1,0 +1,192 @@
+body{
+    background: #eee;
+}
+header.header {
+    vertical-align: middle;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    height: 100px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    background-color: rgb(173, 220, 220);
+    -webkit-box-shadow: 0px -1px 3px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 3px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 3px 3px rgba(0,0,0,0.75);
+    z-index: 5;
+    font-family: sans-serif;
+    overflow:hidden;
+}
+body {
+    font-family: sans-serif;
+}
+header .text {
+    height: 100%;
+    line-height: 100px;
+    padding: 0px 0px 0px 25px;
+    font-size: 60px;
+    width: 425px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    overflow:hidden;
+}
+.small-header.text {
+    font-size: 18px;
+    font-style: initial;
+    font-weight: initial;
+    width: auto;
+    float: middle;
+    overflow:hidden;
+}
+header .text {
+    height: 100%;
+    line-height: 100px;
+    padding: 0px 0px 0px 25px;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    overflow:hidden;
+}
+header .text-right {
+    padding: 0 25px 0 0;
+    height: 100%;
+    float: right;
+    display: block;
+    line-height: 100px;
+    overflow:hidden;
+}
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+    color: black !important;
+}
+a.small-header {
+    font-size: 18px;
+}
+.content {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10;
+}
+.table {
+    display: table;
+    width: 256;
+    zoom: 1;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.tr {
+    display: table-row;
+}
+.td {
+    display: table-cell;
+}
+div.normalCell {
+	display: table-cell;
+	border: thin solid #eee;
+    text-align:center; 
+    vertical-align:middle;
+	width: 75px;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.commitCell {
+	display: table-cell;
+    text-align:left; 
+    vertical-align:middle;
+	width: 400px;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.normalCellTable {
+	display: table;
+	width: 100px;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.smallCell1 {
+	display: table-cell;
+	width: 50px;
+    text-align:left; 
+    vertical-align:middle;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.textFieldCell1 {
+	display: table-cell;
+	width: 150px;
+    text-align:left; 
+    vertical-align:middle;
+	padding: 0px;
+    overflow:hidden;
+}
+div.smallCell2 {
+	display: table-cell;
+	width: 50px;
+    text-align:right; 
+    vertical-align:middle;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.commitCellTable {
+	display: table;
+	width: 400px;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.commitCellRowTableInfoTable {
+	display: table;
+	padding: 0px;
+    width: 100%;
+    background: #D8D8D8;
+}
+div.normalRow {
+	display: table-row;
+	border: thin solid #eee;
+	width: 75px;
+	padding: 2px;
+    background: #D8D8D8;
+}
+div.pharCell {
+	display: table-cell;
+	border: thin solid #eee;
+    text-align:center; 
+    vertical-align:middle;
+	width: 75px;
+	padding: 2px;
+    background: #00F7FF;
+}
+div.buildInfoCellGreen {
+	display: table-cell;
+	border: thin solid #eee;
+    text-align:center; 
+    vertical-align:middle;
+    background: #A5E5AD;
+	width: 75px;
+	padding: 2px;
+}
+div.buildInfoCellRed {
+	display: table-cell;
+	border: thin solid #eee;
+    text-align:center; 
+    vertical-align:middle;
+    background: #ffa5a5;
+	width: 75px;
+	padding: 2px;
+}
+div.buildInfoCellRunning {
+	display: table-cell;
+	border: thin solid #eee;
+    text-align:center; 
+    vertical-align:middle;
+    background: #D8D8D8;
+	width: 75px;
+	padding: 2px;
+}
